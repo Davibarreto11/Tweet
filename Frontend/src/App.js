@@ -8,10 +8,10 @@ import Timeline from './pages/Timeline';
 function App() {
   return (
     <BrowserRouter>
-        <Routes>
-          <Route path='/' exact Component={Login} />
-          <Route path='/timeline' Component={Timeline}/>
-        </Routes>
+      <Routes>
+        <Route path='/' exact Component={Login} />
+        <Route path='/timeline' Component={Timeline} />
+      </Routes>
     </BrowserRouter>
   )
 }

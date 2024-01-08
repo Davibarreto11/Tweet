@@ -15,6 +15,17 @@
   margin: 30px 0;
 }
 
+.timeline-wrapper button {
+  cursor: pointer;
+  width: 15%;
+  background: #4bb0ee;
+  color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 5px;
+}
+
 .timeline-wrapper form textarea {
   border: 3px solid #d8e5ed;
   border-radius: 5px;
